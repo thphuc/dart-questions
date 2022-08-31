@@ -31,3 +31,28 @@ We declared `v` as a dynamic variable, so we can assign/re-assign any data (diff
 </details>
 
 ---
+**2. What is the output?**
+```dart
+void main() {
+  num n = 10;
+  double d = 10.0;
+
+  print(n == d);
+}
+```
+- A. false
+- B. true
+- C. Compile error
+- D. Runtime error
+
+<details><summary><b>Show answer</b></summary>
+<p>
+
+#### Answer: B. true
+
+A `num` can be used for both `double` and `int`. Also, `double` extends `num`. In this question `n` and `d` are equal. 
+</p>
+</details>
+
+---
+
