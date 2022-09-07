@@ -71,7 +71,7 @@ void main() {
 
 #### Answer: B. false
 
-The documentation: `Check whether two references are to the same object.`
+The documentation says: `Check whether two references are to the same object.`
 Both lists ([1] and [1]) have the same length (length = 1) and have the same elements (number 1),
 but they are not the same OBJECT. `identical` only returns true if both objects are the same. Hence,
 the output is `false`.
